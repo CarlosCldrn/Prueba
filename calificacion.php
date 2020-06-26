@@ -1,4 +1,4 @@
-<?php 
+<?php
 /**
  *
  */
@@ -8,7 +8,7 @@ class LogicaComputacional
     {
         echo "Estoy en la materia Logica Computacional";
     }
-    function Promedio($n1,$n2,$n3,$e1,$t1){ 
+    function Promedio($n1,$n2,$n3,$e1,$t1){
         $parciales=$n1+$n2+$n3;
         $parciales/=3;
         $parciales*=0.55;
